@@ -1,4 +1,4 @@
-# Semi-Truck Delivery Time Prediction Using Machine Learning
+# Delivery Time Prediction Using Machine Learning
 
 ## Project Overview
 This machine learning project predicts semi-truck delivery times using supervised regression techniques.
