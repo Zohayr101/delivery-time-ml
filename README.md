@@ -1,67 +1,69 @@
+
+
 # Delivery Time Prediction Using Machine Learning
 
-## Project Overview
-This machine learning project predicts semi-truck delivery times using supervised regression techniques.
 
-The goal is to analyze logistics variables such as:
-- Distance traveled
-- Cargo weight
-- Shipping priority
-- Traffic conditions
-- Weather conditions
+This project predicts freight delivery times using supervised machine learning algorithms. The goal is to improve logistics planning by estimating delivery duration from shipment information.
 
-and estimate delivery duration in hours.
+## Dataset Features
 
----
+- Distance (Miles)
+- Cargo Weight
+- Shipping Type
+- Traffic Level
+- Weather Condition
+- Delivery Time (Target)
 
-## Technologies Used
+## Technologies
+
 - Python
 - Pandas
 - NumPy
 - Matplotlib
-- Seaborn
 - Scikit-learn
 - Jupyter Notebook
 
----
+## Machine Learning Pipeline
 
-## Dataset Features
+Week 1
+- Dataset setup
 
-| Feature | Description |
-|---|---|
-| Distance_Miles | Delivery distance in miles |
-| Cargo_Weight_Lbs | Cargo weight in pounds |
-| Shipping_Type | Freight priority level |
-| Traffic_Level | Road traffic conditions |
-| Weather_Condition | Weather during transport |
-| Delivery_Time_Hours | Target variable |
+Week 2
+- Data cleaning
+- Feature engineering
 
----
+Week 3
+- Exploratory Data Analysis
 
-## Weekly Progress
+Week 4
+- Linear Regression
+- Decision Tree
 
-### Week 1 - Dataset Setup
-- Defined ML regression objective
-- Created logistics dataset
-- Loaded and explored data structure
-- Calculated summary statistics
+Week 5
+- Random Forest
+- Gradient Boosting
+- GridSearchCV
 
-### Week 2 - Data Cleaning & Preprocessing
-- Removed duplicates
-- Encoded categorical features
-- Engineered weight categories
-- Prepared data for modeling
+Week 6
+- Cross Validation
+- Residual Analysis
 
-### Week 3 - Exploratory Data Analysis
-- Visualized delivery trends
-- Analyzed feature correlations
-- Identified major delivery-time factors
-- Generated scatterplots and boxplots
+Week 7
+- Feature Importance
+- Actual vs Predicted
+- Final Visualizations
 
----
+Week 8
+- Documentation
+- Final Report
+- GitHub Submission
 
-## Future Work
-- Train Linear Regression model
-- Train Decision Tree Regressor
-- Compare MAE, RMSE, and R² scores
-- Apply hyperparameter tuning
+## Evaluation Metrics
+
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+
+
+
